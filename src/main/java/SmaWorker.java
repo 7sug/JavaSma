@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class smaWorker {
-    public static List<Integer> smaFunc(){
+public class SmaWorker {
+    public static List<Integer> smaFunc(List<Integer> data){
         List<Integer> sma = new ArrayList<Integer>();
         //int[] data = {2, 5, 7, 8, 3, 0, 10, 11, 15};
-        List<Integer> data = DataGenerator.randomizer();
+        //List<Integer> data = DataGenerator.randomizer();
         int arrayLen = data.size();
         int sum = 0;
         int count = 0;
